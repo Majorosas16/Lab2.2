@@ -21,7 +21,8 @@
 
             render() {
                 this.shadowRoot.innerHTML = `
-                    <nav>
+                        <link rel="stylesheet" href="./src/components/navFile/nav.css">
+                    <nav class="navegador">
                 <div>
                     <img src="./src/assets/ubisof.png" alt="logoUbisof">
                     <p>PLAY</p>
@@ -50,5 +51,5 @@
             }
         }
 
-        customElements.define('product-card', Card);
+        customElements.define('nav-component', Card);
         export default Card;
