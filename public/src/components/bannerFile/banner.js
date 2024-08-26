@@ -21,7 +21,8 @@ class Banner extends HTMLElement {
 
     render() {
         this.shadowRoot.innerHTML = `
-           	        <section>
+         <link rel="stylesheet" href="./index.css">
+           	  <section class="sec">
 				<img src="./src/assets/ubisof+.png" alt="pagina de contenido extra de ubisof">
 				<div>
 					<div>

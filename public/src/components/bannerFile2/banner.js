@@ -21,7 +21,8 @@ class Banner2 extends HTMLElement {
 
     render() {
         this.shadowRoot.innerHTML = `
-        <section>
+        <link rel="stylesheet" href="./index.css">
+        <section class="sec2">
             <h1>Star Wars Outlaws</h1>
             <p>Get 3 Days Early Access with Ubisof+ Premium or Gold Edition</p>
         </section>
