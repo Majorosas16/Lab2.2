@@ -14,10 +14,8 @@ class AppContainer extends HTMLElement {
       this.shadowRoot.innerHTML = `
                 <nav-component></nav-component>
                 <banner-component></banner-component>
-
-                <bannertwo-component
-                color="#FF0D78"label="Prove"
-                ></bannertwo-component>
+                <bannertwo-component color="#FF0D78"label="ÚNETE YA"></bannertwo-componentcolor>
+                <games-component></games-component>
                 `;
   }
 }

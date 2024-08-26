@@ -35,14 +35,14 @@ color: white;
 }
 
 button {
+    margin-top: 2rem;
     padding: 20px 30px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     font-size: 16px;
     color: white;
-    font-family: "ubisoft_sansbold", sans-serif;
     font-weight: bold;
 }
 
-/* hacer un hover */
+/* hacer un hover al button */
