@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "ubisoft_sansbold", sans-serif;
+}
+
+.sec2{
+    width: 100%;
+    height: 500px;
+background-image: url("https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7u0o3i84kn2M0zywawe5fA/829fa9d992cc5772d4b009b122dbef07/ubisoft-evergreen_full_banner-swo_no_logo-early-access.jpg");
+background-color: #cccccc; /* if the image is unavailable */
+background-position: center; /* Center the image */
+background-repeat: no-repeat, repeat;
+background-size: cover;
+color: white;
+}
+
+.sec2 div{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec2 div h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.sec2 div p{
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-family: "ubisoft_sansbold", sans-serif;
+    font-weight: bold;
+}
+
+/* hacer un hover */

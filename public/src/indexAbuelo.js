@@ -11,10 +11,13 @@ class AppContainer extends HTMLElement {
   }
 
   render() {
-    this.shadowRoot.innerHTML = `
+      this.shadowRoot.innerHTML = `
                 <nav-component></nav-component>
-                <button-component></button-component>
-                <banner2-component></banner2-component>
+                <banner-component></banner-component>
+
+                <bannertwo-component
+                color="#FF0D78"label="Prove"
+                ></bannertwo-component>
                 `;
   }
 }

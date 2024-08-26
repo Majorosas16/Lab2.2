@@ -35,5 +35,5 @@ class Banner extends HTMLElement {
     }
 }
 
-customElements.define('button-component', Banner);
+customElements.define('banner-component', Banner);
 export default Banner;
