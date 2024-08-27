@@ -1,7 +1,4 @@
-        class Card extends HTMLElement {
-            static get observedAttributes() {
-                return ['img', 'alt', 'title', 'description', 'txtbutton'];
-        }
+        class Nav extends HTMLElement {
 
             constructor() {
                 super();
@@ -10,13 +7,6 @@
 
             connectedCallback() {
                 this.render();
-            }
-
-            attributeChangedCallback(propName, oldValue, newValue) {
-                if (oldValue !== newValue) {
-                    this[propName] = newValue;
-                    this.render();
-                }
             }
 
             render() {
@@ -51,5 +41,5 @@
             }
         }
 
-        customElements.define('nav-component', Card);
-        export default Card;
+        customElements.define('nav-component', Nav);
+        export default Nav;
