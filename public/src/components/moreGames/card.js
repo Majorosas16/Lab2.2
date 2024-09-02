@@ -1,6 +1,6 @@
 class CardGames extends HTMLElement {
   static get observedAttributes() {
-    return ["img", "alt", "title", "icons", "color", "label"];
+    return ["img", "alt", "title", "icons", "color"];
   }
 
   constructor() {
@@ -10,33 +10,34 @@ class CardGames extends HTMLElement {
 
   connectedCallback() {
     this.render();
-
   }
 
   attributeChangedCallback(propName, oldValue, newValue) {
     if (oldValue !== newValue) {
-        this[propName] = newValue;
-        this.render();
+      this[propName] = newValue;
+      this.render();
     }
-}
+  }
 
   render() {
     this.shadowRoot.innerHTML = `
-         <link rel="stylesheet" href="./index.css">
+         <link rel="stylesheet" href="./src/components/moreGames/card.css">
+         <div>
                 <img src=${this.img} alt=${this.alt}>
                 <h3>${this.title}</h3>
-                <div class="icons-container"></div>
+         </div>
+         <div class="icons-container"></div>
 
     `;
-    const iconsContainer = this.shadowRoot.querySelector('.icons-container');
+    const iconsContainer = this.shadowRoot.querySelector(".icons-container");
 
     if (this.icons) {
-        // Dividir el contenido del atributo `icons` por el delimitador
-        const iconsArray = this.icons.split('|');
-        iconsArray.forEach(element => {
-          iconsContainer.innerHTML += element.trim();  // Añadir cada SVG al contenedor
-        });
-      }
+      // Dividir el contenido del atributo `icons` por el delimitador
+      const iconsArray = this.icons.split("|");
+      iconsArray.forEach((element) => {
+        iconsContainer.innerHTML += element.trim(); // Añadir cada SVG al contenedor
+      });
+    }
   }
 }
 

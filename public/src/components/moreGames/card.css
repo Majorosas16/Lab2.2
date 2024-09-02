@@ -1,19 +1,27 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "ubisoft_sansbold", sans-serif;
+div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
-button {
-    margin-top: 2rem;
-    padding: 20px 30px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
+div h3{
+    width: 70%;
+    font-weight:bolder;
+    font-family: "ubisoft_sansbold", sans-serif;
+    
+}
+
+.icons-container{
+    margin-left: 15%;
+    flex-direction: row;
+    gap: 1rem;
+    color: rgb(47, 47, 47);
+    justify-content: left;
+}
+
+img{
+width: 70%;
 }
 
 /* hacer un hover al button */

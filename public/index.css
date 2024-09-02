@@ -127,6 +127,7 @@ color: white;
 }
 
 .sec2 div{
+    gap: 2rem;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -150,4 +151,33 @@ bannertwo-component{
     font-size: 1.2rem;
 }
 
+/* Cards */
 
+.card{
+    width: fit-content;
+    height: fit-content;
+} 
+    /* porque no funciona :( */
+
+.sec3{
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-color: #eeeeee;
+
+}
+
+.sec3 div{
+    display: flex;
+    height:fit-content;
+    justify-content: center;    
+}
+
+.sec3 h1{
+    font-weight: bolder;
+    font-size: 2rem;
+}
