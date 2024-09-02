@@ -27,7 +27,7 @@ class AppContainer extends HTMLElement {
 
                 <section class="sec3">
                   <h1>EXPLORAR MÁS JUEGOS</h1>
-                  <div>
+            <div>
 
                   <div class="card">
                   <games-component
@@ -94,7 +94,7 @@ class AppContainer extends HTMLElement {
                   ></games-component>
               </div>
 
-                  </div>
+          </div>
                   <btn-component  color="#D82688"label="VER TODOS LOS JUEGOS"></btn-component>
                 </section>
               
