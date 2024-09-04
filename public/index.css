@@ -94,30 +94,45 @@ z-index: 1;
     flex-direction: column;
 }
 
-.sec div div{
+banner-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bannerH1{
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
     color: rgb(255, 255, 255);
 }
 
-
-.sec div div H1{
-    font-size: 3rem;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
-}
-
-.sec div div p{
+.bannerp{
     margin-top: 0.5rem;
     font-weight: lighter;
     text-align: center;
     width: 60%;
     font-size: 1.5rem;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
+}
+
+.sec div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3%;
+    height: 50px;
+    width: 80%;
+    height: 20%;
 }
 
 /* Banner 2 */
 
 .sec2{
     width: 100%;
-    height: 500px;
+    height: 400px;
 background-image: url("https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7u0o3i84kn2M0zywawe5fA/829fa9d992cc5772d4b009b122dbef07/ubisoft-evergreen_full_banner-swo_no_logo-early-access.jpg");
 background-color: #cccccc; /* if the image is unavailable */
 background-position: center; /* Center the image */
@@ -183,4 +198,154 @@ bannertwo-component{
 .sec3 h1{
     font-weight: bolder;
     font-size: 2rem;
+}
+
+/* new's sec */
+
+sec4{
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+sec c1{
+    width: 50%;
+}
+
+sec c2{
+    width: 50%;
+}
+
+news-component{
+    width: 30%;
+
+}
+
+.sec4_img{
+    width: 60%;
+} 
+
+/* store */
+
+sec5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-color: #eeeeee;
+    padding: 5rem;
+}
+
+sec5 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+/* Kits*/
+
+sec6{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.sec6_img{
+    width: 40%;
+    height: 400px;
+background-image: url("https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3GuXXIwqLXe9SOVWAElIX1/3f6ef0ee0af05c4db2b96fe3f7e71892/2023_06_Multi-Brands.png");
+background-color: #cccccc; /* if the image is unavailable */
+background-position: center; /* Center the image */
+background-repeat: no-repeat, repeat;
+background-size: cover;
+color: white;
+}
+
+.sec6_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: 300px;
+    gap: 1rem;
+    margin-right: 5rem;
+    font-weight: bolder;
+}
+
+/* Ubisoft Connect */
+
+sec7{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #0A0F1C;
+    color: white;
+    gap: 3rem;
+}
+
+.sec7_img{
+    width: 30%;
+    height: 200px;
+background-image: url("https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6SfvkXTESPJr6U4faPWqfA/dce1ef7c7faeba75c4fa58e172aaaa20/ubisoft-connect-devices-visual-mockup.png");
+background-color: #cccccc00; /* if the image is unavailable */
+background-position: center; /* Center the image */
+background-repeat: no-repeat, repeat;
+background-size: cover;
+color: white;
+}
+
+.sec7_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: 300px;
+    gap: 1.5rem;
+    margin-right: 5rem;
+}
+
+.sec7_txt p{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+/* social */
+
+.social{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: black;
+    display: flex;
+    
+}
+
+.social div{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.social p{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social div img{
+    width: 3%;
 }

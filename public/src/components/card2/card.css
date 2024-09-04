@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "ubisoft_sansbold", sans-serif;
+}
+
+div{
+    display: flex;
+}
+
+div div{
+    flex-direction: column-reverse;
+    justify-content: left;
+    align-items: left;
+    padding: 1rem 0 0 2rem;
+    gap: 1rem;
+}
+
+img{
+    width: 40%;
+} 

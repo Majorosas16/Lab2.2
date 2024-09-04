@@ -16,7 +16,17 @@ class AppContainer extends HTMLElement {
                 <link rel="stylesheet" href="./index.css">
 
                 <nav-component></nav-component>
-                <banner-component></banner-component>
+
+            <section class="sec">
+            		<img src="./src/assets/ubisof+.png" alt="pagina de contenido extra de ubisof">
+                <div>
+                  <banner-component></banner-component>
+                  <div>
+           <btn-component  color="#026AA4"label="VER EL TRÁILER"></btn-component>
+           <btn-component  color="#026AA4"label="COMPRAR AHORA"></btn-component>
+                  </div>
+                </div>
+          	</section>
 
                 <section class="sec2"><img src="./src/assets/ubisof+.png" alt="pagina de contenido extra de ubisof">
                 <div>
@@ -94,10 +104,105 @@ class AppContainer extends HTMLElement {
                   ></games-component>
               </div>
 
-          </div>
-                  <btn-component  color="#D82688"label="VER TODOS LOS JUEGOS"></btn-component>
+                </div>
+                <btn-component  color="#D82688"label="VER TODOS LOS JUEGOS"></btn-component>
                 </section>
               
+                <sec4>
+
+                <div class="c1">
+
+                <img class="sec4_img" src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6UvRKBbDlMymvWq8mYRMOz/c2598c37791291240c8f9b6bb02786c7/-UN-_-AC-_Evolution_of_Stealth_in_Assassin-s_Creed_-_thumbnail.jpg" alt="The Evolution of Assassin's Creed's">
+                <p>2 septiembre 2024</p>
+                <h3>The Evolution of Assassin’s Creed’s Stealth</h3>
+
+                <news-component
+                img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7I4u8DfLe8AYUQOTd22JdH/3d8cd85684ebaa42c3eb53823f2890e9/Y9S3_Operator_Keyart.jpg" alt="Rainbow Six Siege"
+                title= "Rainbow Six Siege – Operation Twin Shells Operator and Gadget Guide"
+                date= "26 agosto 2024"
+                ></news-component>
+                
+                </div>
+
+                <div class="c2">
+                <news-component
+                img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1CLP73X3kVge6vcOAqtCew/4baf37ea39e5e4235f039dc5a290d03e/thumbnail_swo_toshara_960x540_optimized.jpg" alt="Imagen del juego Star Wars Outlaws"
+                title= "Star Wars Outlaws™ Available Now – 10 Things to Look Out For"
+                date= "30 agosto 2024"
+                ></news-component>
+
+                <news-component
+                img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4t5GesE6GU0rcNvBPSS3wn/63a8515b5120b5784fe4830df207d732/XD_DirectRelief.jpg" alt="Imagen de XDefiant"
+                title= "XDefiant Direct Relief Charity Bundle Available Until Sept. 2"
+                date= "26 agosto 2024"
+                ></news-component>
+
+                <news-component
+                img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4KcKBmyRfrsl2lCqtOFB8t/03f4c6351dd932ea035a5632ae606348/HoMM_OE_KV_2_logo.jpg" alt="Heroes of Might and Magic: Olden Era Unveiled at Gamescom"
+                title= "Heroes of Might and Magic: Olden Era Unveiled at Gamescom"
+                date= "26 agosto 2024"
+                ></news-component>
+                </div>
+
+                </sec4>
+
+                <sec5>
+                 <h1>UBISOFT STORE</h1>
+
+                 <div>
+                 <store-component
+                img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/74dOsJomnC8bbAXI3cWEoC/34fadeb64001ab587e545431441db052/ubi-homescreen-store_promo-swo.jpg" alt="Star Wars Outlaws"
+                title="CONSIGUE EL JUEGO"
+                ></store-component>
+
+                 <store-component
+                img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3g1RltwC4KHuFv3lnNvxnw/4d2bc55fed4f51fb3358e8249a6550c0/Ubidotcom_ACRed_Announce_STD_908x1080.jpg" alt="Star Wars Outlaws"
+                title="RESERVA YA Y CONSIGUE LA MISIÓN ADICIONAL «A LOS PERROS»"
+                ></store-component>
+
+                <store-component
+                img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3WnvCyUjTHVGvVhyJByb1o/425bfae03ebeae967df0ce3b6d84b9b0/ubi-homescreen-store_promo-anno117.jpg" alt="Star Wars Outlaws"
+                title="RESERVA YA Y CONSIGUE LA MISIÓN ADICIONAL «A LOS PERROS»"
+                ></store-component>
+
+                 </div>
+                </sec5>
+
+                <sec6>
+            <div class="sec6_img"></div>
+            <div class="sec6_txt">
+                <h1>¡Ubisoft presenta kits para fans, fondos de escritorio y mucho más!</h1>
+                <btn-component  color="#D82688"label="MÁS INFORMACIÓN"></btn-component>
+            </div>
+                </sec6>
+
+                <sec7>
+            <div class="sec7_img"></div>
+            <div class="sec7_txt">
+                <h1>Ubisoft Connect</h1>
+                <p>Todos tus juegos, amigos y beneficios en un mismo lugar. PC | Consola | Móvil</p>
+                <btn-component  color="#0858F6"label="HAZTE CON UBISOFT CONNECT"></btn-component>
+            </div>
+                </sec7>
+
+            <div class="social">
+                 <p>Visita otros canales de Ubisoft</p>
+                 <div>
+                    <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7MSfSWhXCnKkoVagD3E6lJ/a522fb64dd1eec95ee5de804ddf6df64/_Ubisoft__global_twitter_logo.png" alt="twitter icon">
+
+                    <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/32xRzuzxNUJYa3QO5iY8B5/7b048bf697702593da82c3325e7dc0d2/_Ubisoft__global_facebook_logo.png" alt="facebook icon">
+
+                    <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7qD6KHarSZ9h2uc7G5o20C/07d38541a2b66370173c40d18dd3a0da/_Ubisoft__global_twitch_logo.webp" alt="twitch icon">
+
+                    <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/68qlJsyTv8sTv54rqqfOPO/05083db5d6dbdbcb5ed34464f235a2ed/_Ubisoft__global_youtube_logo.png" alt="Youtube icon">
+
+                    <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6htnsL4NtlpGqIG7nehH4y/fbc47c2dcd35743457c26e438d3e2d0f/_Ubisoft__global_instagram_logo.png" alt="Instagram icon">
+
+                    <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4q2TQYDbTT3vrE8YHg6Hol/03d4c72747a0ed2f193ec9c939012c7a/social-icon-discord.png" alt="Discord icon">
+                
+                </div>
+            </div>
+
                 `;
   }
 }

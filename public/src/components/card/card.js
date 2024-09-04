@@ -1,6 +1,6 @@
 class CardGames extends HTMLElement {
   static get observedAttributes() {
-    return ["img", "alt", "title", "icons", "color"];
+    return ["img", "alt", "title", "icons"];
   }
 
   constructor() {
@@ -21,7 +21,7 @@ class CardGames extends HTMLElement {
 
   render() {
     this.shadowRoot.innerHTML = `
-         <link rel="stylesheet" href="./src/components/moreGames/card.css">
+         <link rel="stylesheet" href="./src/components/card/card.css">
          <div>
                 <img src=${this.img} alt=${this.alt}>
                 <h3>${this.title}</h3>
