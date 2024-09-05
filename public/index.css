@@ -168,14 +168,6 @@ bannertwo-component{
 
 /* Cards */
 
-.card{
-    display: flex;
-    width: 15%;
-    height: fit-content;
-    flex-wrap: wrap;
-} 
-    /* porque no funciona :( */
-
 .sec3{
     gap: 3rem;
     display: flex;
@@ -191,7 +183,6 @@ bannertwo-component{
 
 .sec3 div{
     display: flex;
-    height:fit-content;
     justify-content: center;    
 }
 
@@ -202,28 +193,53 @@ bannertwo-component{
 
 /* new's sec */
 
+.last_news{
+padding:2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 2rem;
+}
+
+.last_news div{
+    color: #D82688;
+    display: flex;
+    gap: 3rem;
+}
+
 sec4{
 width: 100%;
 display: flex;
-flex-direction: row;
+align-items: center;
+padding: 0 8rem 4rem 8rem;
+margin-top: 2rem;
 }
 
-sec c1{
+sec4 .c1{
     width: 50%;
 }
 
-sec c2{
+sec4 .c2{
     width: 50%;
 }
 
-news-component{
-    width: 30%;
+.controlComponent{
+    margin-top: 2rem;
+    line-height: 1.8rem;
+}
 
+.controlComponent_2{
+    line-height: 1.8rem;
 }
 
 .sec4_img{
     width: 60%;
 } 
+
+#h3{
+
+}
 
 /* store */
 
