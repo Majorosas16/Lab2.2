@@ -89,6 +89,7 @@
                       ></games-component>
 
                 </div>
+                
                     <btn-component  color="#D82688"label="VER TODOS LOS JUEGOS"></btn-component>
                     </section>
                   
@@ -164,12 +165,12 @@
 
                     <store-component
                     img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3g1RltwC4KHuFv3lnNvxnw/4d2bc55fed4f51fb3358e8249a6550c0/Ubidotcom_ACRed_Announce_STD_908x1080.jpg" alt="Star Wars Outlaws"
-                    title="RESERVA YA Y CONSIGUE LA MISIÓN ADICIONAL «A LOS PERROS»"
+                    title="RESERVA YA Y CONSIGUE LA MISIÓN <br> ADICIONAL «A LOS PERROS»"
                     ></store-component>
 
                     <store-component
                     img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3WnvCyUjTHVGvVhyJByb1o/425bfae03ebeae967df0ce3b6d84b9b0/ubi-homescreen-store_promo-anno117.jpg" alt="Star Wars Outlaws"
-                    title="RESERVA YA Y CONSIGUE LA MISIÓN ADICIONAL «A LOS PERROS»"
+                    title="AÑADIR A LISTA DE DESEOS"
                     ></store-component>
 
                     </div>
